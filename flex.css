@@ -11,9 +11,11 @@ img{
 .container{ 
     display: flex;
     flex-direction: row;
-    gap: 150px;
     justify-content: center;
     flex-wrap: wrap;
+    row-gap: 80px;
+    column-gap: 112px;
+
 }
 .pizza{ 
     width: 250px;
@@ -27,9 +29,53 @@ img{
     background-repeat: no-repeat;
     background-size: 250px 250px;
 }
+.two{
+    background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/3955079/images/7777.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+}
+.three{
+    background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/3955079/images/p1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+}
+.four{
+    background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/3955079/images/rrr.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+}
+.five{
+    background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/3955079/images/899.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+}
+.six{
+    background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/3955079/images/jkjkkk.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+}
 .pizza p{
     display: none;
 }
 .pizza:hover p{
     display: block;
+    text-align: center;
+    -moz-animation-timing-function: calc("");
+}
+.pizza h3{
+    display: none;
+    text-align: center;
+    margin: 30px;
+    bold
+}
+.pizza:hover h3{
+    display: block;
+}
+h1{
+    text-align: center;
 }

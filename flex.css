@@ -27,11 +27,9 @@ img{
     background-repeat: no-repeat;
     background-size: 250px 250px;
 }
-.one h3{
+.pizza p{
     display: none;
-    
 }
-
-.one p{
-    display: none;
+.pizza:hover p{
+    display: block;
 }

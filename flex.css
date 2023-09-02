@@ -8,6 +8,12 @@ body {
 img{
     width: 100%;
 }
+
+h1{
+    text-align: center;
+    color: beige;
+}
+
 .container{ 
     display: flex;
     flex-direction: row;
@@ -21,6 +27,23 @@ img{
     height: 250px;
     background-color: white;
 }
+
+.pizza h3{
+    display: none;
+}
+
+.pizza:hover h3{
+    display: block;
+}
+
+.pizza p{
+    display: none;
+}
+
+.pizza:hover p{
+    display: block;
+}
+
 .one{
     background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/3955079/images/45.jpg");
     background-position: center;
@@ -29,11 +52,21 @@ img{
     text-align: center;
 }
 
+.hone{
+    text-align: center;
+}
+
+
+
 .two{
     background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/3955079/images/7777.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 250px 250px;
+}
+
+.htwo{
+
 }
 
 .three{
@@ -43,11 +76,19 @@ img{
     background-size: 250px 250px;
 }
 
+.hthree{
+
+}
+
 .four{
     background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/3955079/images/rrr.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 250px 250px;
+}
+
+.hfour{
+
 }
 
 .five{
@@ -57,6 +98,10 @@ img{
     background-size: 250px 250px;
 }
 
+.hfive{
+
+}
+
 .six{
     background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/3955079/images/jkjkkk.jpg");
     background-position: center;
@@ -64,28 +109,6 @@ img{
     background-size: 250px 250px;
 }
 
-.pizza p{
-    display: none;
-}
-
-.pizza:hover p{
-    display: block;
-    text-align: center;
-}
-
-.pizza h3{
-    display: none;
-    text-align: center;
-    margin: 30px;
-    bold
-}
-
-.pizza:hover h3{
-    display: block;
-}
-
-h1{
-    text-align: center;
-    color: beige;
+.hsix{
 
 }

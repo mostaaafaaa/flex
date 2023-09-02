@@ -3,7 +3,7 @@ body {
     background-color:black;
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
 }
 img{
     width: 100%;
@@ -11,12 +11,19 @@ img{
 .container{ 
     display: flex;
     flex-direction: row;
-    gap: 100px;
+    gap: 150px;
     justify-content: center;
     flex-wrap: wrap;
 }
 .pizza{ 
     width: 250px;
-    height: 350px;
+    height: 250px;
     background-color: white;
+}
+.one{
+    background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/3955079/images/45.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+
 }

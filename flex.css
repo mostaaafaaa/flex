@@ -1,0 +1,22 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+    background-color:black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+img{
+    width: 100%;
+}
+.container{ 
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.pizza{ 
+    width: 250px;
+    height: 350px;
+    background-color: white;
+}

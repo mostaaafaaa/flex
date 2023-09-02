@@ -19,11 +19,19 @@ img{
     width: 250px;
     height: 250px;
     background-color: white;
+
 }
 .one{
     background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/3955079/images/45.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 250px 250px;
+}
+.one h3{
+    display: none;
+    
+}
 
+.one p{
+    display: none;
 }

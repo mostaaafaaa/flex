@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+    /* background-image: url("https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"); */
     background-color:black;
     background-position: center;
     background-size: cover;
@@ -38,6 +38,7 @@ text-decoration-line: underline;
     flex-wrap: wrap;
     row-gap: 80px;
     column-gap: 112px;
+    align-items: center;
 }
 .pizza{ 
     width: 250px;
@@ -50,7 +51,8 @@ text-decoration-line: underline;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 250px 250px;
-    text-align: center;
+   
+
 }
 
 .two{
